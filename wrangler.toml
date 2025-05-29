@@ -4,6 +4,12 @@ name = "vless" # todo
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2025-02-24"
+[[routes]] 
+pattern = "cahkecleng.my.id"
+custom_domain = true 
+[[routes]] 
+pattern = "quiz.int.vidio.com.cahkecleng.my.id"
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
@@ -12,4 +18,4 @@ compatibility_date = "2025-02-24"
 # NODE_ID = "1"
 # API_TOKEN = "example_dev_token"
 # API_HOST = "api.v2board.com"
-UUID = "027bf69f-ebcf-4988-b6a5-f0ffa8cfd741"
+UUID = "49eddde7-fd9f-4476-81f7-629078da99dc"
