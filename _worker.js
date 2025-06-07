@@ -6,12 +6,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '49eddde7-fd9f-4476-81f7-629078da99dc';
 
 const พร็อกซีไอพีs = ['103.6.207.108'];
-[[routes]] 
-pattern = "memory.my.id"
-custom_domain = true 
-[[routes]] 
-pattern = "gamemax.prem.my.id.memory.my.id"
-custom_domain = true
+
 
 // if you want to use ipv6 or single พร็อกซีไอพี, please add comment at this line and remove comment at the next line
 let พร็อกซีไอพี = พร็อกซีไอพีs[Math.floor(Math.random() * พร็อกซีไอพีs.length)];
